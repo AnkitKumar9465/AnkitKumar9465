@@ -1,0 +1,173 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.wrapper{
+    background-color: orange;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: orange;
+}
+header ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+header ul li a{
+    text-decoration: none;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+    border-left: 1px solid;
+    font-size: 18px;
+    
+}
+header h1{
+    padding-left: 50px;
+}
+header span{
+    color: #fff ;
+}
+.background{
+    background: url('image/highrise.webp') no-repeat scroll center / cover;
+    height: 300px;
+    position: relative;
+}
+.part3{
+    display: flex;
+    position: absolute;
+    flex-direction: row;
+    background-color: orange;
+}
+.flex{
+    margin: 2%;
+    border-radius: 10px;
+    background-color: #fff;
+    padding: 10px;
+    position: relative;
+    top: -110px;
+    padding-top: 35px;
+
+}
+.icon{
+    border: 1px solid;
+    height: 60px;
+    width: 60px;
+    font-size: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: rgb(185, 86, 86);
+    position: absolute;
+    color: white;
+    top: -27px;
+    left: 40%;
+}
+.part4{
+    position: relative;
+    background-color: orange;
+    height: 300px;
+    margin-top: 110px;
+}
+.left{
+    left: 4%;
+    position: absolute;
+    top: 50px;
+}
+.left ul{
+    list-style: none;
+}
+.left ul li a{
+    text-decoration: none;
+    color: #000;
+    background-color: #fff;
+    padding: 5px 10px;
+    line-height: 1;
+    font-size: 18px;
+    border: 1px solid;
+    display: flex;
+    margin-top: 3px;
+    border-radius: 2px;
+
+}
+.right{
+    position: absolute;
+    left: 20%;
+    border-left: 3px solid rgb(211, 100, 100);
+    padding-left: 15px;
+    top: 50px;
+}
+.right p{
+    padding: 7px;
+}
+.part5{
+    background: url(image/highrise.webp) no-repeat scroll center / cover;
+    text-align: center;
+    color: white;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    width: 100%;
+}
+.part6{
+    position: relative;
+}
+.part6 p{
+    margin-left: 20%;
+    padding: 10px;
+}
+.part6 i{
+    font-size: 3rem;
+    position: absolute;
+    top: 135px;
+    left: 6%;
+    background-color: red;
+    color: rgb(255, 255, 255);
+    border-radius: 4px;
+    padding: 10px;
+}
+.part7{
+    position: relative;
+}
+.part7 p{
+    margin-right: 20%;
+    padding: 10px;
+}
+.part7 i{
+    font-size: 3rem;
+    position: absolute;
+    top: 135px;
+    right: 6%;
+    background-color: red;
+    color: rgb(255, 255, 255);
+    border-radius: 4px;
+    padding: 10px;
+}
+.part8{
+    position: relative;
+}
+.part8 p{
+    margin-left: 20%;
+    padding: 10px;
+}
+.part8 i{
+    font-size: 3rem;
+    position: absolute;
+    top: 135
+    px;
+    left: 6%;
+    background-color: red;
+    color: rgb(255, 255, 255);
+    border-radius: 4px;
+    padding: 10px;
+}
